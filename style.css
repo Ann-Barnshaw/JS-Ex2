@@ -8,7 +8,7 @@ body {
 .exercise-1 {
     width: 300px;
     border: 1px solid;
-    margin: 0 auto;
+    margin: 10% auto;
     text-align: center;
 }
 h1 {
@@ -47,4 +47,16 @@ h1 {
     cursor: pointer;
     background-color: rgb(215, 143, 9);
     transition: 1s;
+}
+
+.exercise-2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ex-2-btn1 a,
+.ex-2-btn2 a,
+.ex-3-btn3 a,
+.ex-4-btn4 a {
+    text-decoration: none;
 }

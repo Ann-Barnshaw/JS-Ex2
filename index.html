@@ -1,28 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practicing JavaScript</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<h1>JavaScript Exercises</h1>
-<div class="exercise-1">
-    <p>Adults plain cotton T-shirt</p>
-    <p>Price: $7.99</p>
-    <div class="btns">
-        <button class="btn1" onclick="alert('Added')"><a href="#">Add to Cart</a></button> 
-        <button class="btn2" onclick="console.log ('Loading'), alert('Purchased')"><a href="#">Buy now</a></button>
+    <h1>JavaScript Exercises</h1>
+    <div class="exercise-1">
+        <p>Adults plain cotton T-shirt</p>
+        <p>Price: $7.99</p>
+        <div class="btns">
+            <button class="btn1" onclick="alert('Added')">
+                <a href="#">Add to Cart</a>
+            </button>
+            <button class="btn2" onclick="console.log ('Loading'), alert('Purchased')">
+                <a href="#">Buy now</a>
+            </button>
+        </div>
     </div>
-</div>
-<div class="exercise-2">
-    <button onclick="console.log (`cartQuantity:${cartQuantity}`)">Show Quantity</button>
-    <button>Add to Cart</button>
-<script>
-    let cartQuantity = 0;
-</script>
-</div>
+    <div class="exercise-2">
+        <button class="ex-2-btn1" onclick="console.log (`cartQuantity:${cartQuantity}`)">
+            <a href="#">Show Quantity</a>
+        </button>
+
+        <button class="ex-2-btn2"
+        onclick="cartQuantity = cartQuantity + 1;
+        console.log (`cartQuantity: ${cartQuantity}`);">
+            <a href="#">Add to Cart</a>
+        </button>
+
+        <button class="ex-2-btn2"
+        onclick="cartQuantity = cartQuantity +2;
+        console.log (`cartQuantity: ${cartQuantity}`);
+        ">
+            <a href="#">+2</a>
+        </button>
+    
+        <button class="ex-3-btn3"
+        onclick="cartQuantity = cartQuantity + 3
+        console.log (`cartQuantity: ${cartQuantity}`);">
+        <a href="#">+3</a>
+        </button>
+
+        <button 
+        onclick="cartQuantity += 4
+        console.log (`cartQuantity: ${cartQuantity}`);">
+            +4
+        </button>
+
+        <button 
+        onclick="cartQuantity += 5
+        console.log (`cartQuantity: ${cartQuantity}`);">
+            +5
+        </button>
+
+        <button 
+        onclick="cartQuantity -= 1
+        console.log (`cartQuantity: ${cartQuantity}`);">
+            Remove from Cart
+        </button>
+
+        <button  class="ex-4-btn4"
+        onclick="cartQuantity = 0;
+        console.log (`cart was reset`);
+        console.log (`cartQuantity: ${cartQuantity}`);
+        ">
+            <a href="#">Reset Cart</a>
+        </button>
+
+        
+
+
+
+        
+
+        
+
+
+
+        <script>
+            let cartQuantity = 0;
+            const name = 'Ann';
+            console.log (`My name is ${name}`);
+            
+            
+
+        </script>
+    </div>
 
 
 
@@ -34,4 +102,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
