@@ -1,0 +1,16 @@
+body {
+    font-size: 12;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent-container {
+    width: 200px;
+    margin: 10% auto;
+    gap: 10px;
+}
+.line-5,
+.line-4,
+.line-3,
+.line-2,
+.line-1 {
+    margin-bottom: 5px;
+}
